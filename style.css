@@ -79,8 +79,8 @@ header div {
   font-size: 14px;
   position: relative;
   margin-top: 20px;
-
   z-index: 10;
+  cursor: pointer;
 }
 
 .h2color div > a:hover {
@@ -101,7 +101,9 @@ header div {
 .carousel-control-next-icon {
   background-color: black !important;
 }
-
+.pointer{
+  cursor: pointer;
+}
 .carousel-item {
   max-height: 70vh;
 }
@@ -222,12 +224,7 @@ header div {
   background-color: #004b87;
   height: 350px;
 }
-.footertop{
-  height: 75%;
-  display: flex;
-  justify-content: space-evenly;
-  padding-top: 30px;
-}
+
 .footerbootom{
   height: 25%;
 }
@@ -272,7 +269,7 @@ header div {
     top: 175px;
     transition: all 0.3s ease;
   }
-
+  
   .nav-list li {
     margin: 0;
   }
@@ -322,7 +319,13 @@ header div {
   }
 
   
-
+.footertop{
+  height: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+}
+  
 }
 
 @media (max-width: 991px) {
@@ -388,5 +391,15 @@ header div {
     flex-direction: column;
     height: 500px;
   }
-
+  .titulosfooter{
+    margin-top: 35px;
+  }
+.footercolor{
+  background-color: #004b87;
+  height: 650px;
+  font-size: 14px;
+}
+.hechopor{
+  font-size: 13px;
+}
 }
